@@ -7,7 +7,7 @@ import java.io.IOException;
 public class Main {
     public static void main(String[] args) throws IOException {
 
-        BufferedReader reader = new BufferedReader(new FileReader("C:\\Users\\bogda\\IdeaProjects\\TasksForImplemica\\src\\main\\resources\\task2.txt"));
+        BufferedReader reader = new BufferedReader(new FileReader(".\\src\\main\\resources\\task2.txt"));
 
 
         int testCases = Integer.parseInt(reader.readLine());
@@ -30,7 +30,7 @@ public class Main {
             }
 
             // Reinitialize reader to read the road data after city data
-            reader = new BufferedReader(new FileReader("C:\\Users\\bogda\\IdeaProjects\\TasksForImplemica\\src\\main\\resources\\task2.txt"));
+            reader = new BufferedReader(new FileReader(".\\src\\main\\resources\\task2.txt"));
             reader.readLine();
             reader.readLine();
 
